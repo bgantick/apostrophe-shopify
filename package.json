@@ -1,0 +1,25 @@
+{
+  "name": "apostrophe-shopify",
+  "version": "1.0.0",
+  "description": "An Open Source Shopify Module for ApostropheCMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgantick/apostrophe-shopify.git"
+  },
+  "keywords": [
+    "Shopify",
+    "eCommerce",
+    "Apostrophe",
+    "ApostropheCMS"
+  ],
+  "author": "Brian Gantick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bgantick/apostrophe-shopify/issues"
+  },
+  "homepage": "https://github.com/bgantick/apostrophe-shopify#readme"
+}
