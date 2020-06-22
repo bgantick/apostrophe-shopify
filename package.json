@@ -1,6 +1,6 @@
 {
   "name": "apostrophe-shopify",
-  "version": "0.1.0-alpha",
+  "version": "0.2.0-alpha",
   "description": "An Open Source Shopify Module for ApostropheCMS",
   "main": "index.js",
   "scripts": {
@@ -35,5 +35,8 @@
   },
   "peerDependencies": {
     "apostrophe": "^2.108.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
   }
 }
