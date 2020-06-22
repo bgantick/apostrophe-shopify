@@ -18,8 +18,13 @@ module.exports = {
         items: items
       });
     }
+    require('./lib/browser.js')(self, options);
+    require('./lib/routes.js')(self, options);
   },
   afterConstruct: (self) => {
+    self.pushAssets();
     self.addToAdminBar();
+    self.pushCreateSingleton();
+    self.addRoutes();
   }
 };
