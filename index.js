@@ -1,6 +1,7 @@
 module.exports = {
   moogBundle: {
     modules: [
+      'apostrophe-shopify-global',
       'apostrophe-shopify-collections',
       'apostrophe-shopify-products',
       'apostrophe-shopify-products-pages',
